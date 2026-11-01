@@ -1,0 +1,128 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  color       String   @default("#6366f1")
+  icon        String?
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  transactions     Transaction[]
+  budgets          Budget[]
+  recurringExpense RecurringExpense[]
+
+  @@map("categories")
+}
+
+model Transaction {
+  id          String   @id @default(cuid())
+  title       String
+  amount      Decimal  @db.Decimal(15, 2)
+  type        TransactionType
+  categoryId  String
+  date        DateTime
+  description String?
+  paymentMethod PaymentMethod?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  category Category @relation(fields: [categoryId], references: [id])
+
+  @@index([date])
+  @@index([categoryId])
+  @@index([type])
+  @@index([date, type])       // monthly-summary, yearly-comparison
+  @@index([date, categoryId]) // category-totals
+  @@index([date, type, categoryId]) // combined filters
+  @@map("transactions")
+}
+
+model Budget {
+  id          String   @id @default(cuid())
+  categoryId  String
+  amount      Decimal  @db.Decimal(15, 2)
+  month       Int      // 1-12
+  year        Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  category Category @relation(fields: [categoryId], references: [id])
+
+  @@unique([categoryId, month, year])
+  @@index([month, year])
+  @@map("budgets")
+}
+
+model RecurringExpense {
+  id              String   @id @default(cuid())
+  title           String
+  amount          Decimal  @db.Decimal(15, 2)
+  categoryId      String
+  frequency       RecurrenceFrequency
+  startDate       DateTime
+  endDate         DateTime?
+  nextExecutionAt DateTime
+  isActive        Boolean  @default(true)
+  description     String?
+  paymentMethod   PaymentMethod?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  category Category @relation(fields: [categoryId], references: [id])
+  executions RecurringExecution[]
+
+  @@index([nextExecutionAt])
+  @@index([isActive])
+  @@map("recurring_expenses")
+}
+
+model RecurringExecution {
+  id                  String   @id @default(cuid())
+  recurringExpenseId  String
+  executedAt          DateTime @default(now())
+  transactionId       String?  @unique
+  status              ExecutionStatus @default(SUCCESS)
+  errorMessage        String?
+
+  recurringExpense RecurringExpense @relation(fields: [recurringExpenseId], references: [id], onDelete: Cascade)
+
+  @@index([recurringExpenseId])
+  @@index([executedAt])
+  @@map("recurring_executions")
+}
+
+enum TransactionType {
+  INCOME
+  EXPENSE
+}
+
+enum PaymentMethod {
+  CASH
+  CARD
+  BANK_TRANSFER
+  UPI
+  OTHER
+}
+
+enum RecurrenceFrequency {
+  DAILY
+  WEEKLY
+  MONTHLY
+  YEARLY
+}
+
+enum ExecutionStatus {
+  SUCCESS
+  FAILED
+  SKIPPED
+}
