@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  postgres:
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: expenseguard
+      POSTGRES_USER: expenseguard
+      POSTGRES_PASSWORD: expenseguard
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/prisma:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U expenseguard -d expenseguard"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

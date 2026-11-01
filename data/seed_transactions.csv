@@ -1,0 +1,132 @@
+title,amount,type,category,date,description,paymentMethod
+Grocery Shopping,120.50,EXPENSE,Food,2024-01-15,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-01-01,January salary,BANK_TRANSFER
+Gas Station,45.00,EXPENSE,Transportation,2024-01-10,Fuel,CARD
+Netflix Subscription,15.99,EXPENSE,Entertainment,2024-01-05,Monthly subscription,CARD
+Doctor Visit,80.00,EXPENSE,Healthcare,2024-01-20,Checkup,CASH
+Online Course,99.00,EXPENSE,Education,2024-01-12,React course,CARD
+Electricity Bill,150.00,EXPENSE,Bills,2024-01-08,January bill,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-01-01,January rent,BANK_TRANSFER
+Flight Tickets,350.00,EXPENSE,Travel,2024-01-25,Vacation flights,CARD
+Freelance Income,800.00,INCOME,Other,2024-01-18,Project payment,BANK_TRANSFER
+Grocery Shopping,120.50,EXPENSE,Food,2024-01-15,Weekly groceries,CARD
+Restaurant Dinner,85.00,EXPENSE,Food,2024-01-12,Date night,CARD
+Uber Ride,25.00,EXPENSE,Transportation,2024-01-14,Airport transfer,UPI
+Amazon Purchase,1200.00,EXPENSE,Shopping,2024-01-16,Electronics,CARD
+Movie Tickets,30.00,EXPENSE,Entertainment,2024-01-19,Weekend movie,CARD
+Pharmacy,45.00,EXPENSE,Healthcare,2024-01-22,Medicines,CASH
+Book Purchase,500.00,EXPENSE,Education,2024-01-23,Programming books,CARD
+Internet Bill,800.00,EXPENSE,Bills,2024-01-24,Monthly internet,BANK_TRANSFER
+Water Bill,500.00,EXPENSE,Bills,2024-01-26,Quarterly water,BANK_TRANSFER
+Hotel Booking,5000.00,EXPENSE,Travel,2024-01-28,Business trip,CARD
+Consulting Fee,15000.00,INCOME,Other,2024-01-30,Client project,BANK_TRANSFER
+Grocery Shopping,110.25,EXPENSE,Food,2024-02-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-02-01,February salary,BANK_TRANSFER
+Gas Station,50.00,EXPENSE,Transportation,2024-02-08,Fuel,CARD
+Spotify Premium,99.00,EXPENSE,Entertainment,2024-02-03,Monthly subscription,CARD
+Dental Checkup,200.00,EXPENSE,Healthcare,2024-02-15,Teeth cleaning,CASH
+Online Workshop,1500.00,EXPENSE,Education,2024-02-10,Design workshop,CARD
+Phone Bill,600.00,EXPENSE,Bills,2024-02-05,Monthly phone,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-02-01,February rent,BANK_TRANSFER
+Train Tickets,500.00,EXPENSE,Travel,2024-02-20,Weekend trip,CARD
+Bonus,10000.00,INCOME,Other,2024-02-28,Performance bonus,BANK_TRANSFER
+Grocery Shopping,115.75,EXPENSE,Food,2024-03-10,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-03-01,March salary,BANK_TRANSFER
+Bus Pass,1200.00,EXPENSE,Transportation,2024-03-05,Monthly pass,CARD
+Gym Membership,2000.00,EXPENSE,Entertainment,2024-03-01,Annual membership,CARD
+Eye Checkup,1500.00,EXPENSE,Healthcare,2024-03-12,New glasses,CARD
+Certification Course,5000.00,EXPENSE,Education,2024-03-15,AWS certification,CARD
+Gas Bill,800.00,EXPENSE,Bills,2024-03-08,Monthly gas,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-03-01,March rent,BANK_TRANSFER
+Flight Tickets,8000.00,EXPENSE,Travel,2024-03-22,Family vacation,CARD
+Dividend Income,2500.00,INCOME,Other,2024-03-31,Stock dividends,BANK_TRANSFER
+Grocery Shopping,130.00,EXPENSE,Food,2024-04-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-04-01,April salary,BANK_TRANSFER
+Taxi Fare,180.00,EXPENSE,Transportation,2024-04-12,Airport,CASH
+Concert Tickets,2500.00,EXPENSE,Entertainment,2024-04-18,Summer concert,CARD
+Health Insurance,12000.00,EXPENSE,Healthcare,2024-04-10,Annual premium,BANK_TRANSFER
+Language Course,3000.00,EXPENSE,Education,2024-04-15,Spanish lessons,CARD
+Electricity Bill,1800.00,EXPENSE,Bills,2024-04-05,Monthly electricity,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-04-01,April rent,BANK_TRANSFER
+Hotel Booking,12000.00,EXPENSE,Travel,2024-04-25,Conference,CARD
+Freelance Income,12000.00,INCOME,Other,2024-04-30,Contract work,BANK_TRANSFER
+Grocery Shopping,125.50,EXPENSE,Food,2024-05-10,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-05-01,May salary,BANK_TRANSFER
+Metro Card,800.00,EXPENSE,Transportation,2024-05-03,Monthly metro,CARD
+Streaming Services,500.00,EXPENSE,Entertainment,2024-05-01,Multiple subscriptions,CARD
+Physiotherapy,3000.00,EXPENSE,Healthcare,2024-05-20,Sports injury,CARD
+Professional Course,8000.00,EXPENSE,Education,2024-05-15,Leadership course,CARD
+Water Bill,600.00,EXPENSE,Bills,2024-05-08,Quarterly water,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-05-01,May rent,BANK_TRANSFER
+Flight Tickets,15000.00,EXPENSE,Travel,2024-05-28,International trip,CARD
+Investment Return,5000.00,INCOME,Other,2024-05-31,Mutual fund returns,BANK_TRANSFER
+Grocery Shopping,140.00,EXPENSE,Food,2024-06-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-06-01,June salary,BANK_TRANSFER
+Fuel,3000.00,EXPENSE,Transportation,2024-06-10,Monthly fuel,CARD
+Gaming Subscription,400.00,EXPENSE,Entertainment,2024-06-01,Xbox Game Pass,CARD
+Dermatologist,2500.00,EXPENSE,Healthcare,2024-06-18,Skin checkup,CARD
+Tech Conference,10000.00,EXPENSE,Education,2024-06-22,Dev conference,CARD
+Internet Bill,1000.00,EXPENSE,Bills,2024-06-05,Monthly internet,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-06-01,June rent,BANK_TRANSFER
+Train Tickets,3000.00,EXPENSE,Travel,2024-06-15,Hill station,CARD
+Side Project,8000.00,INCOME,Other,2024-06-30,App development,BANK_TRANSFER
+Grocery Shopping,135.00,EXPENSE,Food,2024-07-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-07-01,July salary,BANK_TRANSFER
+Car Service,4500.00,EXPENSE,Transportation,2024-07-08,Annual service,CARD
+Theatre Tickets,800.00,EXPENSE,Entertainment,2024-07-12,Play tickets,CARD
+Vaccination,300.00,EXPENSE,Healthcare,2024-07-15,Flu shot,CASH
+Online Certification,4500.00,EXPENSE,Education,2024-07-20,Google Cloud,CARD
+Electricity Bill,2200.00,EXPENSE,Bills,2024-07-05,Summer bill,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-07-01,July rent,BANK_TRANSFER
+Beach Vacation,18000.00,EXPENSE,Travel,2024-07-25,Goa trip,CARD
+Rental Income,15000.00,INCOME,Other,2024-07-31,Property rent,BANK_TRANSFER
+Grocery Shopping,128.00,EXPENSE,Food,2024-08-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-08-01,August salary,BANK_TRANSFER
+Metro Recharge,1500.00,EXPENSE,Transportation,2024-08-05,Monthly pass,CARD
+Spotify Family,149.00,EXPENSE,Entertainment,2024-08-01,Family plan,CARD
+Health Checkup,2500.00,EXPENSE,Healthcare,2024-08-10,Annual checkup,CASH
+Skill Workshop,2000.00,EXPENSE,Education,2024-08-18,Photography,CARD
+Gas Bill,950.00,EXPENSE,Bills,2024-08-08,Monthly gas,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-08-01,August rent,BANK_TRANSFER
+Weekend Getaway,7500.00,EXPENSE,Travel,2024-08-24,Hill station,CARD
+Freelance Project,10000.00,INCOME,Other,2024-08-30,Web development,BANK_TRANSFER
+Grocery Shopping,142.50,EXPENSE,Food,2024-09-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-09-01,September salary,BANK_TRANSFER
+Fuel Expense,3200.00,EXPENSE,Transportation,2024-09-10,Monthly fuel,CARD
+Apple Arcade,99.00,EXPENSE,Entertainment,2024-09-01,Gaming subscription,CARD
+Eye Specialist,1800.00,EXPENSE,Healthcare,2024-09-14,Eye exam,CARD
+Tech Book,800.00,EXPENSE,Education,2024-09-20,System design,CARD
+Internet Bill,1100.00,EXPENSE,Bills,2024-09-05,Monthly internet,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-09-01,September rent,BANK_TRANSFER
+Flight Home,4500.00,EXPENSE,Travel,2024-09-28,Festival travel,CARD
+Bonus Income,7500.00,INCOME,Other,2024-09-30,Festival bonus,BANK_TRANSFER
+Grocery Shopping,138.00,EXPENSE,Food,2024-10-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-10-01,October salary,BANK_TRANSFER
+Taxi Rides,2500.00,EXPENSE,Transportation,2024-10-12,Festival travel,CASH
+Movie Night,600.00,EXPENSE,Entertainment,2024-10-18,Family movie,CARD
+Dental Cleaning,1200.00,EXPENSE,Healthcare,2024-10-20,Teeth cleaning,CASH
+Course Fee,6000.00,EXPENSE,Education,2024-10-25,ML course,CARD
+Electricity Bill,1900.00,EXPENSE,Bills,2024-10-05,Monthly electricity,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-10-01,October rent,BANK_TRANSFER
+Holiday Trip,22000.00,EXPENSE,Travel,2024-10-25,Diwali vacation,CARD
+Investment Gain,8000.00,INCOME,Other,2024-10-31,Stock profits,BANK_TRANSFER
+Grocery Shopping,133.75,EXPENSE,Food,2024-11-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-11-01,November salary,BANK_TRANSFER
+Bus Tickets,1800.00,EXPENSE,Transportation,2024-11-08,Intercity travel,CARD
+Gaming Purchase,2500.00,EXPENSE,Entertainment,2024-11-15,New game,CARD
+Pharmacy Bills,800.00,EXPENSE,Healthcare,2024-11-18,Medicines,CASH
+Certification Exam,3500.00,EXPENSE,Education,2024-11-22,Exam fee,CARD
+Water Bill,700.00,EXPENSE,Bills,2024-11-10,Quarterly water,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-11-01,November rent,BANK_TRANSFER
+Train Journey,2800.00,EXPENSE,Travel,2024-11-24,Family visit,CARD
+Side Income,6000.00,INCOME,Other,2024-11-30,Consulting,BANK_TRANSFER
+Grocery Shopping,145.00,EXPENSE,Food,2024-12-05,Weekly groceries,CARD
+Salary,5000.00,INCOME,Other,2024-12-01,December salary,BANK_TRANSFER
+Car Fuel,3500.00,EXPENSE,Transportation,2024-12-10,Monthly fuel,CARD
+Christmas Party,4000.00,EXPENSE,Entertainment,2024-12-20,Celebration,CARD
+Health Insurance,15000.00,EXPENSE,Healthcare,2024-12-15,Annual renewal,BANK_TRANSFER
+Year End Course,5000.00,EXPENSE,Education,2024-12-28,Planning course,CARD
+Gas Bill,1200.00,EXPENSE,Bills,2024-12-08,Winter gas,BANK_TRANSFER
+Rent Payment,1200.00,EXPENSE,Rent,2024-12-01,December rent,BANK_TRANSFER
+Year End Trip,15000.00,EXPENSE,Travel,2024-12-28,New year vacation,CARD
+Year End Bonus,20000.00,INCOME,Other,2024-12-31,Annual bonus,BANK_TRANSFER
